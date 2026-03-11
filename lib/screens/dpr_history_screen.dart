@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 
 import '../providers/dpr_provider.dart';
+import '../widgets/dpr_card.dart';
 
 class DPRHistoryScreen extends StatelessWidget {
+
   const DPRHistoryScreen({super.key});
 
   @override
@@ -27,23 +28,8 @@ class DPRHistoryScreen extends StatelessWidget {
 
                 final report = reports[index];
 
-                return Card(
-                  margin: const EdgeInsets.all(10),
+                return DPRCard(report: report);
 
-                  child: ListTile(
-                    title: Text(report.project),
-
-                    subtitle: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text("Date: ${DateFormat.yMMMd().format(report.date)}"),
-                        Text("Weather: ${report.weather}"),
-                        Text("Workers: ${report.workers}"),
-                        Text("Work: ${report.description}"),
-                      ],
-                    ),
-                  ),
-                );
               },
             ),
     );
