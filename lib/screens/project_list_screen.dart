@@ -15,31 +15,39 @@ class ProjectListScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Projects"),
-
+        title: const Text(
+          "Projects",
+          style: TextStyle(fontWeight: FontWeight.bold),
+        ),
         actions: [
-          IconButton(
-            icon: const Icon(Icons.history),
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (_) => const DPRHistoryScreen(),
-                ),
-              );
-            },
-          )
+          Padding(
+            padding: const EdgeInsets.only(right: 16.0),
+            child: FilledButton.tonalIcon(
+              icon: const Icon(Icons.history),
+              label: const Text("History"),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => const DPRHistoryScreen(),
+                  ),
+                );
+              },
+            ),
+          ),
         ],
       ),
-
+      
       body: ListView.builder(
+        padding: const EdgeInsets.all(16.0),
         itemCount: projects.length,
-
         itemBuilder: (context, index) {
-          return ProjectCard(project: projects[index]);
+          return Padding(
+            padding: const EdgeInsets.only(bottom: 16.0),
+            child: ProjectCard(project: projects[index]),
+          );
         },
       ),
     );
