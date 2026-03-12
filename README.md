@@ -3,7 +3,13 @@
 A mobile-friendly Flutter application built as part of an intern selection task. This app implements a core flow for construction site managers to log in, view active projects, and submit Daily Progress Reports (DPR) with photos.
 
 ---
+## 📱 App Preview (Screenshots)
 
+| Login Screen | Project List | DPR Form | History | Detail View |
+| :---: | :---: | :---: | :---: | :---: |
+| <img src="screenshots/login_screen.jpeg" width="200"> | <img src="screenshots/project_list_screen.jpeg" width="200"> | <img src="screenshots/dpr_form_screen.jpeg" width="200"> | <img src="screenshots/dpr_history_screen.jpeg" width="200"> | <img src="screenshots/dpr_detail_screen.jpeg" width="200"> |
+
+---
 ## 🚀 Features Implemented
 
 ### Login Screen:
@@ -11,13 +17,9 @@ A mobile-friendly Flutter application built as part of an intern selection task.
 - Feedback on failed login attempts.
 - Test Credentials: Email: test@test.com | Password: 123456
 
-![Login Screen](screenshots/login_screen.png)
-
 ### Project List Screen:
 - Displays a clean, card-based static list of projects.
 - Shows Project Name, Status (with dynamic color badges), and Start Date.
-
-![Project List Screen](screenshots/project_list_screen.png)
 
 ### DPR Form Screen:
 - Interactive Date Picker.
@@ -26,14 +28,9 @@ A mobile-friendly Flutter application built as part of an intern selection task.
 - Image Picker integration allowing 1 to 3 site photos from the gallery.
 - Success Snackbar confirmation on submission.
 
-![DPR Form Screen](screenshots/dpr_form_screen.png)
-
 ### DPR History & Details (Bonus Feature):
 - Maintains a local history of submitted reports.
 - Detailed view of past reports including a zoomable interactive image viewer for attached photos.
-
-![DPR History Screen](screenshots/dpr_history_screen.png)
-![DPR Detail Screen](screenshots/dpr_detail_screen.png)
 
 ---
 
