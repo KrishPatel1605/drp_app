@@ -289,7 +289,7 @@ class _DescriptionField extends StatelessWidget {
         hintText: "Briefly describe the work done today...",
         alignLabelWithHint: true,
         prefixIcon: const Padding(
-          padding: EdgeInsets.only(bottom: 48.0), // Align icon to top
+          padding: EdgeInsets.only(bottom: 48.0),
           child: Icon(Icons.description_outlined),
         ),
         border: OutlineInputBorder(

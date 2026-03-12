@@ -40,7 +40,6 @@ class DPRDetailScreen extends StatelessWidget {
   }
 }
 
-// --- Extracted Widgets ---
 
 class _ProjectHeader extends StatelessWidget {
   final String projectName;
@@ -249,7 +248,6 @@ class _PhotosSection extends StatelessWidget {
   }
 }
 
-// --- Helper UI Widgets ---
 
 class _StatCard extends StatelessWidget {
   final IconData icon;

@@ -16,7 +16,7 @@ class DPRCard extends StatelessWidget {
     return Card(
       elevation: 1,
       shadowColor: Colors.black.withOpacity(0.4),
-      margin: EdgeInsets.zero, // Margin is now handled by the ListView padding in DPRHistoryScreen
+      margin: EdgeInsets.zero,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(16),
       ),
@@ -34,7 +34,7 @@ class DPRCard extends StatelessWidget {
           padding: const EdgeInsets.all(16.0),
           child: Row(
             children: [
-              // Stylish Icon Container
+
               Container(
                 padding: const EdgeInsets.all(12),
                 decoration: BoxDecoration(
@@ -49,7 +49,6 @@ class DPRCard extends StatelessWidget {
               ),
               const SizedBox(width: 16),
               
-              // Project Name & Date
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -84,7 +83,6 @@ class DPRCard extends StatelessWidget {
                 ),
               ),
               
-              // Navigation Arrow
               const SizedBox(width: 12),
               Icon(
                 Icons.arrow_forward_ios_rounded,
