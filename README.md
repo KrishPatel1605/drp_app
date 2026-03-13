@@ -114,7 +114,4 @@ flutter run
 
 Check out the full app walkthrough below to see the UI and features in action:
 
-<video src="screenshots/drp.mp4" controls="controls" width="100%" style="max-width: 600px;">
-</video>
-
-*(Note: If the video doesn't play inline on your platform, you can [click here to view or download it](screenshots/drp.mp4).)*
+[**▶️ Click here to watch the Walkthrough Video on Google Drive**](https://drive.google.com/file/d/1Lo7hBL17G5zku8Z8efrDzwRze87p6cIE/view?usp=drivesdk)
