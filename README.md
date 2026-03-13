@@ -117,4 +117,4 @@ Check out the full app walkthrough below to see the UI and features in action:
 <video src="screenshots/drp.mp4" controls="controls" width="100%" style="max-width: 600px;">
 </video>
 
-*(Note: If the video doesn't play inline on your platform, you can [click here to view or download it](drp.mp4).)*
+*(Note: If the video doesn't play inline on your platform, you can [click here to view or download it](screenshots/drp.mp4).)*
